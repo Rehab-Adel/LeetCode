@@ -16,7 +16,6 @@ public:
 
             result = to_string(sum % 2) + result;
         }
-
         return result;
     }
 };
