@@ -3,6 +3,7 @@ public:
     bool isPalindrome(int x) {
          if (x < 0) {
             return false;
+             
         }
         int left = 1;
         while (x / left >= 10) {
